@@ -1,44 +1,35 @@
-.border{
-    width: 300px;
-    height: 275px;
-    background: rgb(6, 145, 187);
-
-    text-align: center;
-    padding-top: 2.7vh;
-    position: fixed;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, cyan,yellow);
+}
+form{
+    background-color: white;
+    position: absolute;
+    top: 50%;
     left: 50%;
-    margin-left: -150px;
-    top:50%;
-    margin-top: -175px;
+    transform: translate(-50%,-50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: black;
+}
+input{
+    padding: 15px 0;
+    border:  none;
+    outline: none;
+    font-size: 15px;
     
 }
-#fname{
-    width: 225px;
-    height: 220px;
-    text-align: center;
-    position: absolute;
-    left: 52.7%;
-    margin-left: -150px;
-    top:60%;
-    margin-top: -175px;
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: black;
+    font-size: 15px;
+    background-image: linear-gradient(90deg, rgb(212, 0, 255),rgb(255, 38, 0));
 }
-#lname{
-    width: 225px;
-    height:  40px;
-    text-align: center;
-    position: absolute;
-    left: 52.7%;
-    margin-left: -150px;
-    top:67%;
-    margin-top: -175px;
-}
-#bo{
-    width: 225px;
-    height: 30px;
-    position: absolute;
-    left: 52.7%;
-    margin-left: -150px;
-    top:72%;
-    margin-top: -175px;
-    
+button:hover{
+    background-color: aqua;
+    cursor: pointer;
 }
