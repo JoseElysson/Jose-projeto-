@@ -12,6 +12,9 @@ form{
     border-radius: 15px;
     color: black;
 }
+i > input{
+    float: right;
+}
 input{
     padding: 15px 0;
     border:  none;
